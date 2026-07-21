@@ -9,7 +9,6 @@ Esta pasta contém todos os scripts SQL utilizados no desenvolvimento do projeto
 - Inserção de dados.
 - Views.
 - Procedures.
-- Functions.
 - Triggers.
 
 ## Como utilizar
