@@ -21,26 +21,24 @@ Este projeto tem como objetivo aplicar conceitos de modelagem de banco de dados 
 - Relacionamentos 1:1, 1:N e N:N
 - Views
 - Procedures
-- Functions
 - Triggers
 - Consultas SQL (SELECT, JOIN, GROUP BY, ORDER BY)
 
 ## 📂 Estrutura do Projeto
 
 ```
-sql/
-├── create_database.sql
-├── inserts.sql
-├── consultas.sql
-├── views.sql
-├── procedures.sql
-├── functions.sql
-└── triggers.sql
+projeto-oficina/
+│
+├── SQL/
+├── diagramas/
+├── README.md
+└── LICENSE
 ```
 
-## 🎯 Objetivo de aprendizado
+### 📁 Pastas
 
-Este projeto foi desenvolvido para praticar conceitos de banco de dados utilizados no mercado, incluindo modelagem, integridade referencial, automação com triggers e consultas SQL.
+- **SQL:** Scripts do banco de dados.
+- **diagramas:** Modelo Conceitual e Modelo Lógico.
 
 ## 👨‍💻 Autor
 
