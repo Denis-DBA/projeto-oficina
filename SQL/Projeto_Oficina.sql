@@ -27,8 +27,6 @@ CREATE TABLE `bkp_cliente` (
   `IDCLIENTE` int DEFAULT NULL,
   `NOME` varchar(30) DEFAULT NULL,
   `SEXO` enum('M','F') DEFAULT NULL,
-  `EMAIL` varchar(50) DEFAULT NULL,
-  `CPF` char(11) DEFAULT NULL,
   `DATA_BACKUP` datetime DEFAULT NULL,
   PRIMARY KEY (`IDBACKUP`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
@@ -317,4 +315,4 @@ SET character_set_client = @saved_cs_client;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-07-21 14:21:04
+-- Dump completed on 2026-07-21 18:29:41
